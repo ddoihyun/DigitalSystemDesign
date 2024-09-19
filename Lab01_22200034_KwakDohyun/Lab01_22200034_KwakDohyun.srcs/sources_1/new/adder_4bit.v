@@ -1,0 +1,39 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 2024/09/02 04:05:49
+// Design Name: 
+// Module Name: adder_4bit
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module adder_4bit(
+    input [3:0] A,
+    input [3:0] B,
+    input Cin,
+    output Cout,
+    output [3:0] S
+    );
+    
+    wire c1, c2, c3, c4;
+    wire s1, s2, s3, s4;
+    
+    adder_full f1( .A(A[0]), .B(B[0]), .Cin(Cin), .Cout(c1), .S(S[0]) );
+    adder_full f2( .A(A[1]), .B(B[1]), .Cin(c1), .Cout(c2), .S(S[1]) );
+    adder_full f3( .A(A[2]), .B(B[2]), .Cin(c2), .Cout(c3), .S(S[2]) );
+    adder_full f4( .A(A[3]), .B(B[3]), .Cin(c3), .Cout(Cout), .S(S[3]) );
+    
+endmodule

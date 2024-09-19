@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1725820766">
+  <File Type="BITSTR-BMM" Name="LabAdd4bit_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="LabAdd4bit_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="LabAdd4bit_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="LabAdd4bit_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="LabAdd4bit.tcl"/>
+  <File Type="OPT-TIMING" Name="LabAdd4bit_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="LabAdd4bit_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="LabAdd4bit_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="LabAdd4bit_reports.tcl"/>
+  <File Type="OPT-DRC" Name="LabAdd4bit_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="LabAdd4bit.hwdef"/>
+  <File Type="PWROPT-DCP" Name="LabAdd4bit_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="LabAdd4bit_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="LabAdd4bit_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="LabAdd4bit_placed.dcp"/>
+  <File Type="PLACE-IO" Name="LabAdd4bit_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="LabAdd4bit_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="LabAdd4bit_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="LabAdd4bit_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="LabAdd4bit_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="LabAdd4bit_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="LabAdd4bit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="LabAdd4bit.bgn"/>
+  <File Type="PLACE-TIMING" Name="LabAdd4bit_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="LabAdd4bit_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="LabAdd4bit.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="LabAdd4bit_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="LabAdd4bit_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="LabAdd4bit_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="LabAdd4bit.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="LabAdd4bit_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="LabAdd4bit_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="LabAdd4bit_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="LabAdd4bit_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="LabAdd4bit_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="LabAdd4bit_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="LabAdd4bit.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="LabAdd4bit_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="LabAdd4bit.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="LabAdd4bit_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="LabAdd4bit_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="LabAdd4bit.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="LabAdd4bit_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="LabAdd4bit_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="LabAdd4bit_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="LabAdd4bit_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="LabAdd4bit_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="LabAdd4bit_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="LabAdd4bit_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="LabAdd4bit_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="LabAdd4bit_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="LabAdd4bit_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="LabAdd4bit_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="LabAdd4bit_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="LabAdd4bit_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="LabAdd4bit_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="LabAdd4bit_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="LabAdd4bit_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="LabAdd4bit_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="LabAdd4bit_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="LabAdd4bit_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="LabAdd4bit.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="LabAdd4bit_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="LabAdd4bit.rbt"/>
+  <File Type="BITSTR-NKY" Name="LabAdd4bit.nky"/>
+  <File Type="BG-DRC" Name="LabAdd4bit.drc"/>
+  <File Type="RDI-RDI" Name="LabAdd4bit.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/7segment_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/adder_4bit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab01_22200034_KwakDohyun/Lab01_22200034_KwakDohyun.srcs/sources_1/new/adder_4bit.v"/>
+        <Attr Name="ImportTime" Val="1725219148"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/adder_full.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab01_22200034_KwakDohyun/Lab01_22200034_KwakDohyun.srcs/sources_1/new/adder_full.v"/>
+        <Attr Name="ImportTime" Val="1725218306"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/topmodule.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/adder_half.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab01_22200034_KwakDohyun/Lab01_22200034_KwakDohyun.srcs/sources_1/new/adder_half.v"/>
+        <Attr Name="ImportTime" Val="1725217643"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LabAdd4bit"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Downloads/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/seven_segment.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
