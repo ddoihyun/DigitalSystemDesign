@@ -1,0 +1,11 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Time = 0, PRT = 1, Data = 0000000, Parity = 1
+Time = 10, PRT = 1, Data = 0000001, Parity = 0
+Time = 20, PRT = 1, Data = 0000111, Parity = 0
+Time = 30, PRT = 1, Data = 1111111, Parity = 0
+Time = 40, PRT = 0, Data = 0000000, Parity = 0
+Time = 50, PRT = 0, Data = 0000001, Parity = 1
+Time = 60, PRT = 0, Data = 0000111, Parity = 1
+Time = 70, PRT = 0, Data = 1111111, Parity = 1
+$finish called at time : 80 ns : File "C:/Users/NTH417/ParityGenerator_22200034/ParityGenerator_22200034.srcs/sim_1/new/tb_Parity_Gen.v" Line 69
