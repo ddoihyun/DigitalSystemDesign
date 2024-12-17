@@ -1,0 +1,183 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Dec 17 21:49:33 2024
+| Host         : DESKTOP-0S0F0DE running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   105 |
+|    Minimum number of control sets                        |   105 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   277 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   105 |
+| >= 0 to < 4        |     7 |
+| >= 4 to < 6        |     6 |
+| >= 6 to < 8        |     7 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |    18 |
+| >= 12 to < 14      |     3 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    60 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              56 |           40 |
+| No           | No                    | Yes                    |             113 |           44 |
+| No           | Yes                   | No                     |             311 |          102 |
+| Yes          | No                    | No                     |              58 |           22 |
+| Yes          | No                    | Yes                    |             161 |           46 |
+| Yes          | Yes                   | No                     |             176 |           66 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+-----------------------------------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+--------------+
+|              Clock Signal             |                                Enable Signal                                |                          Set/Reset Signal                          | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------------------------+-----------------------------------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+--------------+
+|  i_top_clk_IBUF_BUFG                  | cam/control_filters/dec_sobel_db/r_sample1_out                              |                                                                    |                1 |              1 |         1.00 |
+|  top_vga_ready/clk_inst/inst/clk_out2 |                                                                             | i_top_rst_IBUF                                                     |                1 |              1 |         1.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/control_filters/inc_sobel_db/r_sample1_out                              |                                                                    |                1 |              1 |         1.00 |
+|  bgm/fre_1Hz/I80                      |                                                                             |                                                                    |                1 |              1 |         1.00 |
+|  cam/clk_gen/inst/clk_out1            |                                                                             | cam/top_btn_db/r_sample_reg_0                                      |                1 |              2 |         2.00 |
+|  i_top_pclk_IBUF_BUFG                 |                                                                             | cam/top_btn_db/r_sample_reg_0                                      |                1 |              2 |         2.00 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | cam/top_btn_db/r_sample_reg_0                                      |                1 |              2 |         2.00 |
+|  w_200KHz                             |                                                                             | temp/i2cmaster/p_0_in__0                                           |                1 |              4 |         4.00 |
+|  bgm/bps2_name_2/I79                  |                                                                             | bgm/change_mode_1/counter[3]_i_1_n_0                               |                1 |              4 |         4.00 |
+|  bgm/fre_1Hz/I80                      |                                                                             | bgm/bps2_name_2/bump_i_1_n_0                                       |                1 |              4 |         4.00 |
+|  i_top_pclk_IBUF_BUFG                 | cam/OV7670_cam/cam_pixels/pixel_data[3]_i_1_n_0                             |                                                                    |                2 |              4 |         2.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/OV7670_cam/configure_cam/SCCB_HERE/FSM_sequential_state[3]_i_1_n_0      |                                                                    |                2 |              4 |         2.00 |
+|  w_200KHz                             | temp/i2cmaster/FSM_sequential_state_reg[4]_i_1_n_0                          |                                                                    |                2 |              5 |         2.50 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | cam/videoprocessing_sobel/vp_gray/o_gray_data[10]_i_1_n_0          |                2 |              7 |         3.50 |
+|  temp/i2cmaster/E[0]                  |                                                                             |                                                                    |                4 |              7 |         1.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/OV7670_cam/configure_cam/OV7670_config/timer                            | cam/OV7670_cam/configure_cam/OV7670_config/timer[19]_i_1_n_0       |                2 |              7 |         3.50 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | temp/clkgen/clk_reg                                                |                2 |              7 |         3.50 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | cam/OV7670_cam/configure_cam/SCCB_HERE/timer[7]_i_1_n_0            |                2 |              7 |         3.50 |
+|  i_top_clk_IBUF_BUFG                  | cam/control_filters/o_sobel_thresh[7]_i_2_n_0                               | cam/control_filters/o_sobel_thresh[7]_i_1_n_0                      |                2 |              7 |         3.50 |
+|  top_vga_ready/clk_inst/inst/clk_out2 |                                                                             |                                                                    |                5 |              7 |         1.40 |
+|  i_top_clk_IBUF_BUFG                  | cam/OV7670_cam/configure_cam/OV7670_config/o_rom_addr[7]_i_1_n_0            | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                3 |              8 |         2.67 |
+|  cam/clk_gen/inst/clk_out1            |                                                                             |                                                                    |                7 |              8 |         1.14 |
+|  i_top_clk_IBUF_BUFG                  | cam/OV7670_cam/configure_cam/SCCB_HERE/r_data_bit_index[8]_i_2_n_0          | cam/OV7670_cam/configure_cam/SCCB_HERE/r_data_bit_index[8]_i_1_n_0 |                3 |              9 |         3.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/OV7670_cam/configure_cam/SCCB_HERE/r_tx[8]_i_1_n_0                      |                                                                    |                4 |              9 |         2.25 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/rdlinebuffer[3]                         | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                3 |             10 |         3.33 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr[9]_i_1__0_n_0                      | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                5 |             10 |         2.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/w_vp_control_valid                          | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                2 |             10 |         5.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr[9]_i_1__3_n_0                      | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                5 |             10 |         2.00 |
+|  top_vga_ready/clk_inst/inst/clk_out3 | top_vga_ready/vga/vga/VGAdisp/vcnt[9]_i_1_n_0                               | i_top_rst_IBUF                                                     |                3 |             10 |         3.33 |
+|  cam/clk_gen/inst/clk_out1            | cam/display_interface/vga_timing_signals/vc                                 | cam/display_interface/vga_timing_signals/r2_rstn_clk25m_reg        |                4 |             10 |         2.50 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_sobel/o_valid_reg_0[0]                         | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                2 |             10 |         5.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/rdlinebuffer[1]                         | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                4 |             10 |         2.50 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/rdlinebuffer[0]                         | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                5 |             10 |         2.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_gray/w_gray_data_valid                         | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                4 |             10 |         2.50 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/rdlinebuffer[2]                         | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                5 |             10 |         2.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/memory/E[0]                                                             | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                4 |             10 |         2.50 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr[9]_i_1__2_n_0                      | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                4 |             10 |         2.50 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr[9]_i_1__1_n_0                      | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                5 |             10 |         2.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/totalpixelCounter[10]_i_1_n_0               | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                3 |             11 |         3.67 |
+|  w_200KHz                             |                                                                             | temp/i2cmaster/count[11]_i_1_n_0                                   |                3 |             11 |         3.67 |
+|  w_200KHz                             |                                                                             |                                                                    |                6 |             11 |         1.83 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_outputFIFO/o_fill[10]_i_1_n_0                  | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                3 |             11 |         3.67 |
+|  i_top_clk_IBUF_BUFG                  | cam/OV7670_cam/configure_cam/OV7670_config/timer                            | cam/OV7670_cam/configure_cam/OV7670_config/timer[15]_i_1_n_0       |                4 |             12 |         3.00 |
+|  i_top_pclk_IBUF_BUFG                 | cam/OV7670_cam/cam_pixels/o_pix_valid_i_1_n_0                               | cam/OV7670_cam/cam_afifo/r2_rstn_pclk_reg                          |                4 |             12 |         3.00 |
+|  cam/clk_gen/inst/clk_out1            |                                                                             | cam/display_interface/vga_timing_signals/r2_rstn_clk25m_reg        |                3 |             12 |         4.00 |
+|  w_200KHz                             | temp/i2cmaster/temp_data_reg                                                |                                                                    |                5 |             16 |         3.20 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | temp/segcontrol/anode_timer[16]_i_1_n_0                            |                4 |             16 |         4.00 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | temp/audio/counter[16]_i_1_n_0                                     |                4 |             16 |         4.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/OV7670_cam/configure_cam/OV7670_config/o_i2c_addr[7]_i_1_n_0            | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |                5 |             16 |         3.20 |
+|  i_top_pclk_IBUF_BUFG                 | cam/OV7670_cam/cam_pixels/wbinnext0                                         |                                                                    |                2 |             16 |         8.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/OV7670_cam/configure_cam/SCCB_HERE/E[0]                                 |                                                                    |                5 |             18 |         3.60 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | cam/top_btn_db/p_0_in                                              |                5 |             18 |         3.60 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | cam/control_filters/inc_sobel_db/p_0_in                            |                5 |             18 |         3.60 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | cam/OV7670_cam/cam_btn_start_db/p_0_in                             |                5 |             18 |         3.60 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | cam/control_filters/dec_sobel_db/p_0_in                            |                5 |             18 |         3.60 |
+|  top_vga_ready/clk_inst/inst/clk_out3 | top_vga_ready/vga/vga/VGAdisp/vcnt_reg[9]_0                                 | i_top_rst_IBUF                                                     |                5 |             19 |         3.80 |
+|  top_vga_ready/clk_inst/inst/clk_out3 |                                                                             | i_top_rst_IBUF                                                     |                8 |             21 |         2.62 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             |                                                                    |               17 |             22 |         1.29 |
+|  cam/clk_gen/inst/clk_out1            | cam/display_interface/vga_timing_signals/FSM_sequential_r_SM_state_reg[1]_0 | cam/display_interface/vga_timing_signals/r2_rstn_clk25m_reg        |                5 |             25 |         5.00 |
+|  i_top_pclk_IBUF_BUFG                 |                                                                             | cam/OV7670_cam/cam_afifo/r2_rstn_pclk_reg                          |                8 |             26 |         3.25 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | bgm/fre_1Hz/clk_10Hz_i_1_n_0                                       |                7 |             28 |         4.00 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | bgm/change_mode_1/fre_1/clk_after_i_1_n_0                          |                8 |             29 |         3.62 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[8]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[9]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[8]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[9]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[9]_3                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[7]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[8]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[7]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[9]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[9]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[9]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[8]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[7]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[9]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[9]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[9]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[8]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[7]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[8]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[7]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[9]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[7]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[9]_3                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[7]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[8]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[8]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[8]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[9]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB3/wptr_reg[7]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[9]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[9]_3                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB0/wptr_reg[9]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[7]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[8]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[9]_3                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/memory/state                                                            | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |               10 |             30 |         3.00 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[7]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[8]_2                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[8]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB1/wptr_reg[7]_0                           |                                                                    |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  | cam/videoprocessing_sobel/vp_lb/lB2/wptr_reg[7]_1                           |                                                                    |                8 |             30 |         3.75 |
+|  top_vga_ready/clk_inst/inst/clk_out2 | top_vga_ready/sel                                                           | i_top_rst_IBUF                                                     |                8 |             30 |         3.75 |
+|  i_top_clk_IBUF_BUFG                  |                                                                             | cam/videoprocessing_sobel/vp_lb/lB2/SR[0]                          |               68 |            153 |         2.25 |
++---------------------------------------+-----------------------------------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+--------------+
+
+
