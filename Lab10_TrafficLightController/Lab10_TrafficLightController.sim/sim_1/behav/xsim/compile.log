@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/BCDcnt_cas.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCDcnt_cas
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/ClockEnableGenerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClockEnableGenerator
+INFO: [VRFC 10-2458] undeclared symbol eo_1KHz, assumed default net type wire [C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/ClockEnableGenerator.v:46]
+INFO: [VRFC 10-2458] undeclared symbol eo_10KHz, assumed default net type wire [C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/ClockEnableGenerator.v:47]
+INFO: [VRFC 10-2458] undeclared symbol eo_100KHz, assumed default net type wire [C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/ClockEnableGenerator.v:48]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/ColorLed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ColorLedDriver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/TLC_FSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TLC_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/TrafficLightController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TrafficLightController
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/debounce_pulse_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Debounce_Pulse_Generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sim_1/new/tb_TrafficLightController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_TrafficLightController

@@ -1,0 +1,19 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto bb755de9dca349f3b8438e7e64a81b16 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TrafficLightController_behav xil_defaultlib.tb_TrafficLightController xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCDcnt_cas
+Compiling module xil_defaultlib.ClockEnableGenerator
+Compiling module xil_defaultlib.Debounce_Pulse_Generator
+Compiling module xil_defaultlib.TLC_FSM
+Compiling module xil_defaultlib.ColorLedDriver
+Compiling module xil_defaultlib.TrafficLightController
+Compiling module xil_defaultlib.tb_TrafficLightController
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_TrafficLightController_behav

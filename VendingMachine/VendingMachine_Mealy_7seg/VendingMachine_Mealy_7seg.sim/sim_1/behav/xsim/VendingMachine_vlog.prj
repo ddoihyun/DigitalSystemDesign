@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../VendingMachine_Mealy_7seg.srcs/sources_1/new/BCDcnt_cas.v" \
+"../../../../VendingMachine_Mealy_7seg.srcs/sources_1/new/ClockEnableGen.v" \
+"../../../../VendingMachine_Mealy_7seg.srcs/sources_1/new/Controller.v" \
+"../../../../VendingMachine_Mealy_7seg.srcs/sources_1/new/Datapath.v" \
+"../../../../VendingMachine_Mealy_7seg.srcs/sources_1/new/debounce_pulse_gen.v" \
+"../../../../VendingMachine_Mealy_7seg.srcs/sources_1/new/VendingMachine.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

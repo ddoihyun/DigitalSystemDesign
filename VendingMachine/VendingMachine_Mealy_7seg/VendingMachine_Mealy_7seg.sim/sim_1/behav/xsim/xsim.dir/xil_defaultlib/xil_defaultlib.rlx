@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/BCDcnt_cas.v,1731515026,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/ClockEnableGen.v,,BCDcnt_cas,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/ClockEnableGen.v,1731517929,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/Controller.v,,ClockEnableGen,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/Controller.v,1731562710,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/Datapath.v,,controller_mealy,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/Datapath.v,1731518204,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/debounce_pulse_gen.v,,datapath,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/VendingMachine.v,1731518167,verilog,,,,VendingMachine,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/debounce_pulse_gen.v,1731513594,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/VendingMachine_Mealy_7seg/VendingMachine_Mealy_7seg.srcs/sources_1/new/VendingMachine.v,,debounce_pulse_gen,,,,,,,,

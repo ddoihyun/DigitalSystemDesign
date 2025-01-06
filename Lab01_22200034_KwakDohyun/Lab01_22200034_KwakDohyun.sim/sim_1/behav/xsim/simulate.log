@@ -1,7 +1,0 @@
-Vivado Simulator 2018.3
-Time resolution is 1 ps
-A =  2, B =  3, Cin = 0 -> Sum =  4, Cout = 0
-A =  5, B =  3, Cin = 0 -> Sum =  7, Cout = 0
-A =  8, B =  7, Cin = 0 -> Sum = 14, Cout = 0
-A =  9, B =  9, Cin = 0 -> Sum =  1, Cout = 1
-$finish called at time : 40 ns : File "C:/Users/NTH417/Lab01_22200034_KwakDohyun/Lab01_22200034_KwakDohyun.srcs/sim_1/new/tb_adder_4bit.v" Line 64

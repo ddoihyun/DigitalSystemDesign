@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/debounce_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/dice_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dice_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/modcnt_1to6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_1to6
+WARNING: [VRFC 10-1103] net type must be explicitly specified for 'clk' when default_nettype is none [C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/modcnt_1to6.v:21]
+WARNING: [VRFC 10-3594] non-net port 'clk' cannot be of mode input [C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/modcnt_1to6.v:21]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'tc' is not permitted [C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/modcnt_1to6.v:31]
+ERROR: [VRFC 10-845] illegal operand for operator && [C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/modcnt_1to6.v:31]
+ERROR: [VRFC 10-2865] module 'counter_1to6' ignored due to previous errors [C:/Users/Desktop/project_dice/project_dice.srcs/sources_1/new/modcnt_1to6.v:21]

@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab08_TrafficLightController.srcs/sources_1/new/BCDcnt_cas.v" \
+"../../../../Lab08_TrafficLightController.srcs/sources_1/new/ClockEnableGenerator.v" \
+"../../../../Lab08_TrafficLightController.srcs/sources_1/new/ColorLed.v" \
+"../../../../Lab08_TrafficLightController.srcs/sources_1/new/TLC_FSM.v" \
+"../../../../Lab08_TrafficLightController.srcs/sources_1/new/TrafficLightController.v" \
+"../../../../Lab08_TrafficLightController.srcs/sources_1/new/debounce_pulse_gen.v" \
+"../../../../Lab08_TrafficLightController.srcs/sim_1/new/tb_TrafficLightController.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

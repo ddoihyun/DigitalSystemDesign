@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sim_1/new/tb_BCDcnt_cas.v,1728991483,verilog,,,,tb_BCDcnt_cas_,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sim_1/new/tb_ClockEnableGenerator.v,1728992156,verilog,,,,tb_ClockEnableGenerator,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sim_1/new/tb_ColorLedDriver.v,1728995133,verilog,,,,tb_ColorLedDriver,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sim_1/new/tb_Debounce_Pulse_Generator.v,1728992504,verilog,,,,tb_Debounce_Pulse_Generator,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sim_1/new/tb_TLC_FSM.v,1728990034,verilog,,,,tb_TLC_FSM,,,,,,,,
+,,,,,,tb_TrafficLightController,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/BCDcnt_cas.v,1729000462,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/ClockEnableGenerator.v,,BCDcnt_cas,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/ClockEnableGenerator.v,1729000724,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/ColorLed.v,,ClockEnableGenerator,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/ColorLed.v,1728999861,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/TLC_FSM.v,,ColorLedDriver,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/TLC_FSM.v,1728996260,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/TrafficLightController.v,,TLC_FSM,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/TrafficLightController.v,1729003468,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/debounce_pulse_gen.v,,TrafficLightController,,,,,,,,
+C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sources_1/new/debounce_pulse_gen.v,1729002958,verilog,,C:/Users/ddoihyun/24-2/DigitalSystemDesign/Lab08_TrafficLightController/Lab08_TrafficLightController.srcs/sim_1/new/tb_TrafficLightController.v,,Debounce_Pulse_Generator,,,,,,,,

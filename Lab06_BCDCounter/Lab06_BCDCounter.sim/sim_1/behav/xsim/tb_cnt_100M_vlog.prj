@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../BCDCounter.srcs/sources_1/new/CascadableBCDCounter.v" \
+"../../../../BCDCounter.srcs/sources_1/new/cnt_100M.v" \
+"../../../../BCDCounter.srcs/sim_1/new/tb_cnt_100M.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
