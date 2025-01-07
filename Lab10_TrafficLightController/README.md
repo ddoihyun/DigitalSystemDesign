@@ -4,11 +4,11 @@
 
 <img src="./TrafficLightController.jpg">
 
-
+***
 xdc 파일을 참고하면,
 
 
-input
+### #input
 
 btnc: reset
 
@@ -17,7 +17,7 @@ btnd: button
 clk: clock
 
 
-output
+### #output
 
 LED16(RGB): fwy 신호
 

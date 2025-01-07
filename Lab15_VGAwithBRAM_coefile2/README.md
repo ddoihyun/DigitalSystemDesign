@@ -4,11 +4,11 @@
 
 보드의 RGB VGA선을 모니터에 연결 후 모니터 화면을 확인한다. 스위치 입력에 따라 coe file이 변하고 Y-offset이 변한다.
 
-
+***
 xdc 파일을 참고하면,
 
 
-input
+### #input
 
 btnc: reset
 
@@ -19,7 +19,7 @@ SW[3:1]: Y-offset 변경을 위한 신호
 SW[0]: coe file 변경을 위한 신호
 
 
-output
+### #output
 
 hsyncb, vsyncb: VGA 통신을 위한 수직, 수평 신호
 

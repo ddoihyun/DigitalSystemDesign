@@ -7,14 +7,14 @@
 xdc 파일을 참고하면,
 
 
-### input
+### #input
 
 sw[7:0]: B
 
 sw[15:8]: A
 
 
-### output
+### #output
 
 led[0]: LT
 
