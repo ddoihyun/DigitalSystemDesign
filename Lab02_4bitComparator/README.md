@@ -8,13 +8,17 @@ xdc 파일을 참고하면,
 
 
 **input**
+
 sw[7:0]: B
 sw[15:8]: A
 
 **output**
+
 led[0]: LT
 led[1]: EQ
 led[2]: GT
+
+**Result**
 
 A와 B의 결과 값을 비교하여 A가 더 크면 GT(led[2])=1, 같은 값이면 EQ(led[1])=1, B가 더 크면 LT(led[0])=1이 된다.
 
