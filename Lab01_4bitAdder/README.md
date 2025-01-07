@@ -10,6 +10,7 @@ xdc 파일을 참고하면,
 sw[3:0]: B
 sw[7:4]: A
 
+
 **Result**
 
 A+B의 결과(sum)는 led로 출력된다.
