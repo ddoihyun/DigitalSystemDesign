@@ -8,14 +8,14 @@ xdc 파일을 참고하면,
 input
 btnc: reset
 clk: clock
-SW[1]~SW[3]: Y-offset 변경을 위한 신호
+SW[3:1]: Y-offset 변경을 위한 신호
 SW[0]: coe file 변경을 위한 신호
 
 output
 hsyncb, vsyncb: VGA 통신을 위한 수직, 수평 신호
-VGA_R[0]~[3]: VGA의 R 신호
-VGA_G[0]~[3]: VGA의 G 신호
-VGA_B[0]~[3]: VGA의 B 신호
+VGA_R[3:0]: VGA의 R 신호
+VGA_G[3:0]: VGA의 G 신호
+VGA_B[3:0]: VGA의 B 신호
 
 
 <img src="./Lab15_VGAwithBRAM_coefile2.jpg">
