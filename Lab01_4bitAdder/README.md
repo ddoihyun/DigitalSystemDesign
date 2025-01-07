@@ -5,7 +5,7 @@
 xdc 파일을 참고하면,
 
 
-*input*
+**input**
 
 sw[3:0]: B
 
