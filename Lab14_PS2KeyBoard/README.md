@@ -32,5 +32,3 @@ RxD,TxD: UART 통신을 위함.
 
 
 <img src="./Lab14_PS2KeyBoard.jpg"> 
-
-다음은 9분 17초이다.

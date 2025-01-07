@@ -29,3 +29,5 @@ AN[7:0]: anode signal (active-low)
 
 
 <img src="./Lab08_StopWatch.jpg">
+
+다음은 9분 17초이다.
