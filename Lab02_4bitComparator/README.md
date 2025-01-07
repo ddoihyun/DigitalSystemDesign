@@ -1,13 +1,13 @@
 # Lab02_4bitComparator
 다음 코드는 빼기 연산을 통해 8bit A, B 값을 비교한다.
 
-(쉽게는 연산자를 사용하는 방법도 있다 - EightbitComparator.v를 참고)
+(쉽게는 연산자를 사용하는 방법도 있다. - EightbitComparator.v를 참고)
 
 ***
 xdc 파일을 참고하면,
 
 
-**input**
+### input
 
 sw[7:0]: B
 
