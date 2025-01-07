@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jan  7 11:55:13 2025
+# Process ID: 16308
+# Current directory: C:/Users/ddoihyun/git/DigitalSystemDesign/Lab03_ParityGenerator/Lab03_ParityGenerator.runs/impl_1
+# Command line: vivado.exe -log TopModule.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TopModule.tcl -notrace
+# Log file: C:/Users/ddoihyun/git/DigitalSystemDesign/Lab03_ParityGenerator/Lab03_ParityGenerator.runs/impl_1/TopModule.vdi
+# Journal file: C:/Users/ddoihyun/git/DigitalSystemDesign/Lab03_ParityGenerator/Lab03_ParityGenerator.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TopModule.tcl -notrace
