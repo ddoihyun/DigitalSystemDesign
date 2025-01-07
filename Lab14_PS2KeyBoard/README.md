@@ -31,4 +31,6 @@ AN[7:0]: anode signal (active-low)
 RxD,TxD: UART 통신을 위함.
 
 
-<img src="./Lab14_PS2KeyBoard.jpg">
+<img src="./Lab14_PS2KeyBoard.jpg"> 
+
+다음은 9분 17초이다.
